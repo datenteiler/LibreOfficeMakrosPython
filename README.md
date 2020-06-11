@@ -1,2 +1,2 @@
-# LibreOfficeMakrosPython
-Makros for LibreOffice in Python
+# LibreOffice Makros in Python
+Makros für LibreOffice in Python
