@@ -11,3 +11,9 @@ Möchte man das Python-Makro aus der Symbolleiste von LibreOffice aufrufen, ersc
 ```python
 def PythonVersion(self):
 ```
+
+Bei mehreren Methoden, werden alle exportiert. Um das zu verhindern können einzelne Methode definiert werden, welche exportiert werden sollen:
+
+```python
+g_exportedScripts = PythonVersion,
+```
