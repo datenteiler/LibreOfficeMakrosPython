@@ -6,8 +6,7 @@ Dateien mit Funktionen/Modulen, die von verschiedenen Dateien aus importiert wer
 
 Um das Makro auszuführen, klickt man unter "Extras -> Makros -> Makros ausführen…", dann "Meine Makros" und wählt den Namen des Makros aus, unter den man die Python-Datei abgespeichert hat.
 
-Möchte man das Python-Makro aus der LO Symbolleiste aufrufen, erscheint die Fehlermeldung: "PythonVersion() takes 0 positional arguments but 1 was given".
-Die Methode ist so eingerichtet, dass sie keine Argumente akzeptiert. Das Argument 'self' wird beim Aufruf der Methode aber implizit weitergereicht, so dass sie tatsächlich dann doch ein Argument erhält. Das Hinzufügen von 'self' zur Methodendefinition löst das Problem, z.B. in der Datei "PythonVersion.py":
+Möchte man das Python-Makro aus der Symbolleiste von LibreOffice aufrufen, erscheint die Fehlermeldung: "PythonVersion() takes 0 positional arguments but 1 was given". Die Methode ist so eingerichtet, dass sie keine Argumente akzeptiert. Das Argument 'self' wird aber beim Aufruf der Methode implizit weitergereicht, so dass sie tatsächlich dann doch ein Argument erhält. Das Hinzufügen von 'self' zur Methodendefinition löst das Problem, z.B. in der Datei "PythonVersion.py":
  
 ```python
 def PythonVersion(self):
