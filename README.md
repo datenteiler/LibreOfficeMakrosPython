@@ -22,4 +22,4 @@ g_exportedScripts = PythonVersion,
 ```
 
 ## Beispiel
-Das Beispiel ist ein LibreOffice Calc Sheet, das Währungen in Euro umrechnet, nachdem man auf den Button "Umrechnen" geklickt hat. Das Python-Makro ist in das Dokument eingebettet. Damit es in LibreOffice funktioniert, muss das "Sicherheitslevel" unter "Extras -> Optionen... -> Sicherheit -> Makrosicherheit..." auf **Mittel** gesetzt werden.
+Das Beispiel ist ein LibreOffice Calc Sheet, das Währungen in Euro umrechnet, nachdem man auf den Button "Umrechnen" geklickt hat. Das Python-Makro ist in das Dokument eingebettet. Damit das Sheet mit dem Makro in LibreOffice funktioniert, muss das "Sicherheitslevel" unter "Extras -> Optionen... -> Sicherheit -> Makrosicherheit..." auf **Mittel** gesetzt werden.
