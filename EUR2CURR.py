@@ -5,7 +5,6 @@ import urllib.request, uno, json
 def EUR2CURR(currency):
     url = "https://api.exchangeratesapi.io/latest"
     request = urllib.request.urlopen(url)
-    #response=requests.get(url)
     data = json.load(request)
     rate = data["rates"][currency]
     return rate
