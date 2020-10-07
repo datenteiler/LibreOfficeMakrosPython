@@ -1,5 +1,13 @@
 # LibreOffice Makros in Python
 
+## Installation
+
+Unter Debian/Ubuntu müssen vorher ein paar Pakete installiert werden:
+
+```bash
+apt install default-jre libreoffice-java-common libreoffice-script-provider-python
+```
+
 Die Python-Skripte mit den Makros werde im Verzeichnis `~/.config/libreoffice/4/user/Scripts/python/` abgespeichert, damit sie im Pythonpfad sind und von LibreOffice gefunden werden. Unter Windows ist das der Pfad `%appdata%\LibreOffice\4\user\Scripts\python`. Das Verzeichnis muss eventuell noch angelegt werden. Wichtig ist bei beiden Systemen, auf die Schreibweise der Verzeichnisnamen zu achten: Es muss `Scripts\python` heißen, mit großem "S" in "Scripts" und kleinem "p" in "python".
 
 ## Pythonpath
